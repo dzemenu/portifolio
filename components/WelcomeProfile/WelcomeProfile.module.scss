@@ -1,0 +1,36 @@
+.welcomeProfile {
+  img {
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    background-color: #f66;
+    box-shadow: 0 0 0 5px #f66;
+    &:hover {
+      cursor: pointer;
+      animation: bounceOut 0.4s linear;
+    }
+  }
+
+  @keyframes bounceOut {
+    0% {
+      box-shadow: 0 0 0 4px #f66;
+      opacity: 1;
+    }
+    25% {
+      box-shadow: 0 0 0 1px #f66;
+      opacity: 1;
+    }
+    50% {
+      box-shadow: 0 0 0 7px #f66;
+      opacity: 1;
+    }
+    75% {
+      box-shadow: 0 0 0 4px #f66;
+      opacity: 1;
+    }
+    100% {
+      box-shadow: 0 0 0 5px #f66;
+      opacity: 1;
+    }
+  }
+}
