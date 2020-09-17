@@ -5,7 +5,8 @@
     width: 130px;
     background-color: #f66;
     box-shadow: 0 0 0 5px #f66;
-    &:hover {
+    &:hover,
+    &:active {
       cursor: pointer;
       animation: bounceOut 0.4s linear;
     }

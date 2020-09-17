@@ -23,7 +23,6 @@ export default class CustomDocument extends Document {
           <meta name="msapplication-TileColor" content="#da532c" />
           <meta name="theme-color" content="#ffffff" />
           <meta name="mobile-web-app-capable" content="yes" />
-          {/* // TODO: SEO */}
         </Head>
         <body>
           <Main />
