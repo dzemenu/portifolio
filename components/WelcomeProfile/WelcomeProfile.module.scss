@@ -4,31 +4,30 @@
     border-radius: 50%;
     height: 120px;
     width: 120px;
-    background-color: #f66;
     box-shadow: 0 0 0 5px #f66;
+    animation: bounceOut infinite 1s linear;
     &:hover {
       cursor: pointer;
-      animation: bounceOut 0.4s linear;
     }
     @keyframes bounceOut {
       0% {
-        box-shadow: 0 0 0 4px #f66;
+        box-shadow: 0 0 0 4px rgb(136, 255, 0);
         opacity: 1;
       }
       25% {
-        box-shadow: 0 0 0 1px #f66;
+        box-shadow: 0 0 0 1px rgb(255, 204, 1);
         opacity: 1;
       }
       50% {
-        box-shadow: 0 0 0 7px #f66;
+        box-shadow: 0 0 0 7px rgb(255, 153, 0);
         opacity: 1;
       }
       75% {
-        box-shadow: 0 0 0 4px #f66;
+        box-shadow: 0 0 0 4px rgb(255, 204, 1);
         opacity: 1;
       }
       100% {
-        box-shadow: 0 0 0 5px #f66;
+        box-shadow: 0 0 0 5px rgb(255, 238, 1);
         opacity: 1;
       }
     }
