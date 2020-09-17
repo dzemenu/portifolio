@@ -3,23 +3,23 @@ import style from './WelcomeText.module.scss';
 
 const WelcomeText = () => (
   <div className={style.welcomeText}>
-    <span className={style.mainText}>Welcome</span>
+    <span className={style.mainText}>I&apos;m Akhil</span>
     <div className={style.helloText}>
       <div>
         <div>
-          Hello
+          Developer
           <span role="img" aria-label="Hello">👋</span>
         </div>
       </div>
       <div>
         <div>
-          Namaste
+          Designer
           <span role="img" aria-label="Namaste">🙏</span>
         </div>
       </div>
       <div>
         <div>
-          Hola
+          Gamer
           <span role="img" aria-label="Hola">👋</span>
         </div>
       </div>

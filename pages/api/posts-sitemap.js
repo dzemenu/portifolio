@@ -7,31 +7,19 @@ export default async (req, res) => {
       cacheTime: 600000,
     });
 
-    // List of posts
-    const posts = [];
+    const posts = []; // List of posts
 
-    // Create each URL row
-    posts.forEach((post) => {
-      smStream.write({
-        url: `/post/${post.slug}`,
-        changefreq: 'daily',
-        priority: 0.9,
-      });
+    posts.forEach((post) => { // Create each URL row
+      smStream.write({ url: `/post/${post.slug}`, changefreq: 'daily', priority: 0.9 });
     });
 
-    // End sitemap stream
-    smStream.end();
+    smStream.end(); // End sitemap stream
 
-    // XML sitemap string
-    const sitemapOutput = (await streamToPromise(smStream)).toString();
+    const sitemapOutput = (await streamToPromise(smStream)).toString(); // XML sitemap string
 
-    // Change headers
-    res.writeHead(200, {
-      'Content-Type': 'application/xml',
-    });
+    res.writeHead(200, { 'Content-Type': 'application/xml' }); // Change headers
 
-    // Display output to user
-    res.end(sitemapOutput);
+    res.end(sitemapOutput); // Display output to user
   } catch (e) {
     console.log(e);
     res.send(JSON.stringify(e));
