@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint ./components/** ./pages/** -c .eslintrc.js --ext js,jsx,ts,tsx",
     "lint-fix": "eslint ./components/** ./pages/** -c .eslintrc.js --fix --ext js,jsx,ts,tsx"
+    
   },
   "dependencies": {
     "next": "9.5.3",

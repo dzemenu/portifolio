@@ -7,7 +7,7 @@ const IntroText = () => (
     <div className={style.droppingTexts}>
       <div>Hello</div>
       <div>Hola</div>
-      <div>Namaste</div>
+      <div>ሰላም</div>
       <div>Bonjour</div>
     </div>
   </div>

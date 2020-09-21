@@ -13,7 +13,7 @@ import style from '../styles/index.module.scss';
 const Homepage = () => (
   <div className={style.homepage}>
     <Head>
-      <title>Akhil Nair - Welcome</title>
+      <title>Dilu Kefale - Welcome</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <main>

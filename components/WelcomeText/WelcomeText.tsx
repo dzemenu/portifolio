@@ -3,7 +3,7 @@ import style from './WelcomeText.module.scss';
 
 const WelcomeText = () => (
   <div className={style.welcomeText}>
-    <span className={style.mainText}>I&apos;m Akhil</span>
+    <span className={style.mainText}>I&apos;m Dilu</span>
     <div className={style.helloText}>
       <div>
         <div>
@@ -19,7 +19,7 @@ const WelcomeText = () => (
       </div>
       <div>
         <div>
-          Gamer
+          Footballer
           <span role="img" aria-label="Hola">👋</span>
         </div>
       </div>
