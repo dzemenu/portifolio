@@ -15,9 +15,9 @@ const MyApp = ({ Component, pageProps }) => (
       <meta name="robots" content="all" />
       <meta charSet="utf-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="keywords" content="Akhil Nair, Portfolio, Resume, AkhilxNair" />
-      <meta name="author" content="Akhil Nair" />
-      <meta name="description" content="Personal Portfolio page of Akhil Nair" />
+       <meta name="keywords" content="Dzemenu, Portfolio, Resume, Dilu kefale" />
+      <meta name="author" content="Dilu kefale" />
+      <meta name="description" content="Personal Portfolio page of Dilu kefale" />
       <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5" />
       <meta name="msapplication-TileColor" content="#da532c" />
       <meta name="theme-color" content="#ffffff" />
